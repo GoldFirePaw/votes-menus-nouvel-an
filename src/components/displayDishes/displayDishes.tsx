@@ -4,7 +4,7 @@ import { getDishesFromGoogleSheets } from "../../api/getDishesFromGoogleSheets"
 export const DisplayDishes = () => {
   const [words, setWords] = useState<string[]>([])
   const apiKey = "AIzaSyB18ofrIc54DucxeL--ua-Vy90DmIp350U"
-  const range = "Feuille 1!A18:A22"
+  const range = "Feuille 1!A18:A600"
   const spreadsheetId = "1duSgyFrpsX6zDDDSZyZyoFQry32dGVH9Pq4S-jTYKfY"
 
   useEffect(() => {
